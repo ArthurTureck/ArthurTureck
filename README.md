@@ -27,4 +27,4 @@
   
 </div>
 
-![Snake animation](https://github.com/ArthurTureck)
+![Snake animation](https://github.com/ArthurTureck/ArthurTureck/blob/output/github-contribution-grid-snake.svg)
