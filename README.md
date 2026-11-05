@@ -9,7 +9,7 @@
   <a href="https://github.com/ArthurTureck/relatorio-mensal-sso"><img src="https://img.shields.io/badge/Projeto_em_destaque-E39B2D?style=for-the-badge&logo=github&logoColor=white" alt="Projeto em destaque"></a>
 </p>
 
-Trabalho na área de **Segurança do Trabalho** de um centro operativo de distribuição de GLP, em Cascavel (PR). Meu foco são problemas reais da rotina: relatórios montados à mão, planilhas que ninguém consegue manter em dia e indicadores que levam horas para fechar. Eu meço quanto tempo a tarefa leva, construo a ferramenta, testo com dados reais e entrego algo que a pessoa usa **sem precisar de mim**.
+Trabalho na **Segurança do Trabalho da [Copa Energia](https://www.copaenergia.com.br)**, no Centro Operativo de Cascavel (PR), onde a empresa distribui GLP. Meu foco são problemas reais da rotina: relatórios montados à mão, planilhas que ninguém consegue manter em dia e indicadores que levam horas para fechar. Eu meço quanto tempo a tarefa leva, construo a ferramenta, testo com dados reais e entrego algo que a pessoa usa **sem precisar de mim**.
 
 ### Impacto em números
 
