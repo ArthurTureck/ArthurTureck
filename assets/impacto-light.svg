@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1184" height="180" viewBox="0 0 1184 180" role="img" aria-label="Impacto: relatórios de 4 h 40 para 23 min por mês; 51 h por ano; 121 PDFs em menos de 1 s; 16 de 16 formulários endireitados"><g transform="translate(24,24)"><rect width="270" height="132" rx="14" fill="#FFFFFF" stroke="#D3DEE7"/>
+      <rect x="0" y="18" width="4" height="96" rx="2" fill="#C77F12"/>
+      <text x="24" y="66" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#0E2233">~23 min</text>
+      <text x="24" y="94" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#3E5568">era ~4 h 40 por mês</text>
+      <text x="24" y="116" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#6B7F90">relatórios mensais de SSO</text></g><g transform="translate(314,24)"><rect width="270" height="132" rx="14" fill="#FFFFFF" stroke="#D3DEE7"/>
+      <rect x="0" y="18" width="4" height="96" rx="2" fill="#2D6A8E"/>
+      <text x="24" y="66" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#0E2233">51 h</text>
+      <text x="24" y="94" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#3E5568">por ano devolvidas</text>
+      <text x="24" y="116" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#6B7F90">à equipe de Segurança</text></g><g transform="translate(604,24)"><rect width="270" height="132" rx="14" fill="#FFFFFF" stroke="#D3DEE7"/>
+      <rect x="0" y="18" width="4" height="96" rx="2" fill="#2D6A8E"/>
+      <text x="24" y="66" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#0E2233">&lt; 1 s</text>
+      <text x="24" y="94" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#3E5568">para juntar 121 PDFs</text>
+      <text x="24" y="116" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#6B7F90">antes: ~50 min à mão</text></g><g transform="translate(894,24)"><rect width="270" height="132" rx="14" fill="#FFFFFF" stroke="#D3DEE7"/>
+      <rect x="0" y="18" width="4" height="96" rx="2" fill="#2D6A8E"/>
+      <text x="24" y="66" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#0E2233">16/16</text>
+      <text x="24" y="94" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#3E5568">formulários endireitados</text>
+      <text x="24" y="116" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#6B7F90">por OCR, sem internet</text></g></svg>

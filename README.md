@@ -1,44 +1,69 @@
-<h1>Arthur Tureck</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Arthur Tureck: automação e dados para Segurança do Trabalho" src="assets/banner-light.svg" width="100%">
+</picture>
 
-**Automação e dados para Segurança do Trabalho.** Transformo tarefas repetitivas de escritório em ferramentas que a equipe usa sozinha.
+<p align="center">
+  <a href="https://www.linkedin.com/in/arthur-de-conti-tureck-86b317287/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:arthurtureck@gmail.com"><img src="https://img.shields.io/badge/E--mail-16324A?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="https://github.com/ArthurTureck/relatorio-mensal-sso"><img src="https://img.shields.io/badge/Projeto_em_destaque-E39B2D?style=for-the-badge&logo=github&logoColor=white" alt="Projeto em destaque"></a>
+</p>
 
-Trabalho na área de Segurança do Trabalho de um centro operativo de distribuição de GLP, em Cascavel (PR). O meu foco são problemas reais da rotina: relatórios montados à mão, planilhas que ninguém consegue manter em dia e indicadores que levam horas para fechar.
+Trabalho na área de **Segurança do Trabalho** de um centro operativo de distribuição de GLP, em Cascavel (PR). Meu foco são problemas reais da rotina: relatórios montados à mão, planilhas que ninguém consegue manter em dia e indicadores que levam horas para fechar. Eu meço quanto tempo a tarefa leva, construo a ferramenta, testo com dados reais e entrego algo que a pessoa usa **sem precisar de mim**.
 
-## Projetos em destaque
+### Impacto em números
 
-### 📄 [Relatório Mensal SSO](https://github.com/ArthurTureck/relatorio-mensal-sso)
-Ferramenta que monta os relatórios mensais de Permissões de Trabalho, DDS, Quase Acidentes e Melhorias de Segurança, com um painel que lê as pastas da rede e se atualiza sozinho.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/impacto-dark.svg">
+  <img alt="Relatórios de 4 h 40 para 23 min por mês; 51 h por ano; 121 PDFs em menos de 1 s; 16 de 16 formulários endireitados" src="assets/impacto-light.svg" width="100%">
+</picture>
 
-- **Antes:** cerca de 4 h 40 por mês, separando a 1ª folha de cada documento em papel, escaneando uma por uma e juntando tudo.
-- **Depois:** cerca de 23 min por mês. O PDF fica pronto em segundos, a sequência de números é conferida automaticamente e os gráficos já saem prontos para a reunião.
-- **Resultado:** cerca de 51 horas por ano economizadas. A técnica de segurança passou a usar a ferramenta sozinha, e no primeiro uso ela já encontrou uma PT com número repetido.
-- **Como funciona:** um único arquivo HTML que roda no navegador, sem instalar nada e sem enviar dados para a internet. Usa pdf-lib e pdf.js para os PDFs, Tesseract (OCR) para endireitar formulários escaneados, File System Access API para ler as pastas e testes automatizados com Playwright.
+## Projeto em destaque
 
-### 📊 Painel de treinamentos NR
-Script em Python (pandas e openpyxl) que lê a planilha de treinamentos pendentes, calcula o que está vencido ou perto de vencer e gera um dashboard em Excel com a identidade visual da empresa.
+<table>
+<tr>
+<td width="55%">
+<a href="https://github.com/ArthurTureck/relatorio-mensal-sso"><img src="https://raw.githubusercontent.com/ArthurTureck/relatorio-mensal-sso/main/docs/painel-visao-geral.png" alt="Painel do Relatório Mensal SSO"></a>
+</td>
+<td>
+
+### [Relatório Mensal SSO](https://github.com/ArthurTureck/relatorio-mensal-sso)
+
+Junta a 1ª página de cada PT, DDS, relato de Quase Acidente e Melhoria do mês, confere a numeração e mostra um **painel que lê as pastas da rede** e se atualiza sozinho.
+
+- Um único **HTML offline**: não precisa instalar nada
+- **OCR** endireita formulários escaneados
+- Painel em PDF, PNG e Excel para a reunião
+- Testes com **Playwright**
+
+`JavaScript` `pdf-lib` `pdf.js` `Tesseract.js` `SVG`
+
+</td>
+</tr>
+</table>
+
+**Também:** um painel de treinamentos NR em **Python** (pandas e openpyxl) que lê a planilha de pendências e gera um dashboard em Excel com o que está vencido ou perto de vencer.
 
 ## Ferramentas
 
 <p>
-  <img alt="Python" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">&nbsp;
-  <img alt="JavaScript" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">&nbsp;
-  <img alt="HTML" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">&nbsp;
-  <img alt="CSS" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">&nbsp;
-  <img alt="Pandas" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg">&nbsp;
-  <img alt="Git" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">&nbsp;
-  <img alt="Django" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg">
+  <img alt="Python" title="Python" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">&nbsp;&nbsp;
+  <img alt="Pandas" title="pandas" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg">&nbsp;&nbsp;
+  <img alt="JavaScript" title="JavaScript" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">&nbsp;&nbsp;
+  <img alt="HTML" title="HTML" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">&nbsp;&nbsp;
+  <img alt="CSS" title="CSS" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">&nbsp;&nbsp;
+  <img alt="Playwright" title="Playwright" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg">&nbsp;&nbsp;
+  <img alt="Git" title="Git" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">&nbsp;&nbsp;
+  <img alt="Django" title="Django" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg">
 </p>
-
-Python (pandas, openpyxl, pypdf) · JavaScript no navegador (PDF, OCR, gráficos em SVG) · Excel · testes com Playwright
 
 ## Como eu trabalho
 
-1. Primeiro meço o problema: quanto tempo leva hoje e quantas vezes por mês acontece.
-2. Construo com dados reais e testo os casos que costumam quebrar.
-3. Entrego algo que a pessoa usa sem mim, em dois cliques.
-4. Registro o antes e o depois em números.
+| | |
+|---|---|
+| **1. Medir** | Antes de programar: quanto tempo isso leva hoje e quantas vezes por mês acontece? |
+| **2. Construir** | Com dados reais, testando os casos que costumam quebrar: arquivo corrompido, nome fora do padrão, papel escaneado de lado. |
+| **3. Entregar** | Algo que a pessoa abre com dois cliques e usa sozinha. |
+| **4. Registrar** | O antes e o depois em números. |
 
-## Contato
-
-<a href="https://www.linkedin.com/in/arthur-de-conti-tureck-86b317287/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:arthurtureck@gmail.com"><img src="https://img.shields.io/badge/E--mail-333333?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+<sub>Os números acima são de uso real no trabalho. Os projetos públicos usam dados fictícios.</sub>
