@@ -5,8 +5,8 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/arthur-de-conti-tureck-86b317287/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:arthurtureck@gmail.com"><img src="https://img.shields.io/badge/E--mail-16324A?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
-  <a href="https://github.com/ArthurTureck/relatorio-mensal-sso"><img src="https://img.shields.io/badge/Projeto_em_destaque-E39B2D?style=for-the-badge&logo=github&logoColor=white" alt="Projeto em destaque"></a>
+  <a href="mailto:arthurtureck@gmail.com"><img src="https://img.shields.io/badge/E--mail-133B31?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="https://github.com/ArthurTureck/relatorio-mensal-sso"><img src="https://img.shields.io/badge/Projeto_em_destaque-F0892B?style=for-the-badge&logo=github&logoColor=white" alt="Projeto em destaque"></a>
 </p>
 
 Trabalho na **Segurança do Trabalho da [Copa Energia](https://www.copaenergia.com.br)**, no Centro Operativo de Cascavel (PR), onde a empresa distribui GLP. Meu foco são problemas reais da rotina: relatórios montados à mão, planilhas que ninguém consegue manter em dia e indicadores que levam horas para fechar. Eu meço quanto tempo a tarefa leva, construo a ferramenta, testo com dados reais e entrego algo que a pessoa usa **sem precisar de mim**.
