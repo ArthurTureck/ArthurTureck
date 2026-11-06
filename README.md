@@ -66,4 +66,4 @@ Junta a 1ª página de cada PT, DDS, relato de Quase Acidente e Melhoria do mês
 | **3. Entregar** | Algo que a pessoa abre com dois cliques e usa sozinha. |
 | **4. Registrar** | O antes e o depois em números. |
 
-<sub>Os números acima são de uso real no trabalho. Os projetos públicos usam dados fictícios.</sub>
+<sub>Os números acima são de uso real no trabalho. Os projetos públicos usam dados fictícios. Uso IA (Claude) como apoio para programar; reviso e testo tudo, e nenhum dado da empresa entra nas ferramentas de IA.</sub>
