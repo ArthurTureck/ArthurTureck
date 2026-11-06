@@ -15,7 +15,7 @@ Trabalho na **Segurança do Trabalho da [Copa Energia](https://www.copaenergia.c
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/impacto-dark.svg">
-  <img alt="Relatórios de 4 h 40 para 23 min por mês; 51 h por ano; 121 PDFs em menos de 1 s; 16 de 16 formulários endireitados" src="assets/impacto-light.svg" width="100%">
+  <img alt="Cada relatório de ~25 min para ~3 min; ~24 h por ano; 121 PDFs em menos de 1 s; 16 de 16 formulários endireitados" src="assets/impacto-light.svg" width="100%">
 </picture>
 
 ## Projeto em destaque

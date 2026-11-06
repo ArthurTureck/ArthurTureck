@@ -37,9 +37,9 @@ def avatar():
 
 def banner(nome):
     t = TEMAS[nome]
-    # Barras: horas por mês com relatórios, antes (5 meses ~4 h 40) e depois (~23 min)
+    # Barras: minutos por relatório, antes (~25 min, só a montagem) e hoje (~3 min)
     base, x0, w, gap = 236, 842, 34, 14
-    alturas = [140, 132, 146, 136, 142, 12, 12]
+    alturas = [140, 132, 146, 136, 142, 17, 17]
     barras = []
     for i, h in enumerate(alturas):
         depois = i >= 5
@@ -70,20 +70,20 @@ def banner(nome):
   <text x="232" y="152" font-family="{FONT}" font-size="23" font-weight="700" fill="{t["laranja"]}">Automação e dados para Segurança do Trabalho</text>
   <text x="232" y="188" font-family="{FONT}" font-size="17" fill="{t["suave"]}">Segurança do Trabalho · Copa Energia · Cascavel (PR)</text>
   <g font-family="{FONT}" font-size="13.5" font-weight="600" fill="{t["suave"]}">{"".join(chip_svg)}</g>
-  <text x="842" y="52" font-family="{FONT}" font-size="13" font-weight="700" fill="{t["fraco"]}" letter-spacing="1.5">HORAS POR MÊS COM RELATÓRIOS</text>
+  <text x="842" y="52" font-family="{FONT}" font-size="13" font-weight="700" fill="{t["fraco"]}" letter-spacing="1.5">MINUTOS POR RELATÓRIO</text>
   <line x1="836" y1="{base + .5}" x2="1166" y2="{base + .5}" stroke="{t["fraco"]}" stroke-width="1.5"/>
   {"".join(barras)}
-  <text x="842" y="262" font-family="{FONT}" font-size="13" fill="{t["fraco"]}">antes: ~4 h 40</text>
-  <text x="1166" y="262" text-anchor="end" font-family="{FONT}" font-size="13" fill="{t["menta"]}" font-weight="700">depois: 23 min</text>
-  <text x="{xa + 40}" y="{base - 40}" text-anchor="middle" font-family="{FONT}" font-size="34" font-weight="800" fill="{t["menta"]}" opacity="0">−92%<animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".9s" fill="freeze"/></text>
+  <text x="842" y="262" font-family="{FONT}" font-size="13" fill="{t["fraco"]}">antes: ~25 min</text>
+  <text x="1166" y="262" text-anchor="end" font-family="{FONT}" font-size="13" fill="{t["menta"]}" font-weight="700">hoje: ~3 min</text>
+  <text x="{xa + 40}" y="{base - 40}" text-anchor="middle" font-family="{FONT}" font-size="34" font-weight="800" fill="{t["menta"]}" opacity="0">−88%<animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".9s" fill="freeze"/></text>
 </svg>'''
 
 
 def impacto(nome):
     t = TEMAS[nome]
-    cards = [("23 min", "era ~4 h 40 por mês", "relatórios mensais de SSO", t["laranja"]),
-             ("51 h", "por ano devolvidas", "à equipe de Segurança", t["menta"]),
-             ("&lt; 1 s", "para juntar 121 PDFs", "antes: ~50 min à mão", t["menta"]),
+    cards = [("~3 min", "por relatório, era ~25", "5 a 6 relatórios por mês", t["laranja"]),
+             ("~24 h", "por ano devolvidas", "à equipe de Segurança", t["menta"]),
+             ("&lt; 1 s", "para juntar 121 PDFs", "testado com arquivos reais", t["menta"]),
              ("16/16", "formulários endireitados", "por OCR, sem internet", t["menta"])]
     out = []
     for i, (n, l1, l2, cor) in enumerate(cards):
@@ -93,7 +93,7 @@ def impacto(nome):
       <text x="24" y="100" font-family="{FONT}" font-size="15" font-weight="600" fill="{t["suave"]}">{l1}</text>
       <text x="24" y="120" font-family="{FONT}" font-size="13.5" fill="{t["fraco"]}">{l2}</text></g>''')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="1184" height="180" viewBox="0 0 1184 180" role="img" '
-            f'aria-label="Impacto: relatórios de 4 h 40 para 23 min por mês; 51 h por ano; 121 PDFs em menos de 1 s; '
+            f'aria-label="Impacto: cada relatório de ~25 min para ~3 min; ~24 h por ano; 121 PDFs em menos de 1 s; '
             f'16 de 16 formulários endireitados">{"".join(out)}</svg>')
 
 
