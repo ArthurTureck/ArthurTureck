@@ -42,7 +42,13 @@ Junta a 1ª página de cada PT, DDS, relato de Quase Acidente e Melhoria do mês
 </tr>
 </table>
 
-**Também:** um painel de treinamentos NR em **Python** (pandas e openpyxl) que lê a planilha de pendências e gera um dashboard em Excel com o que está vencido ou perto de vencer.
+**Também:**
+- **Análise de Risco anual a partir do PGR** (Python): um script lê o inventário de riscos e monta a planilha no padrão da empresa. 14 grupos de exposição e 187 cenários num documento que estava em andamento havia meses, pronto em uma tarde.
+- **Controles de armários e hidrantes**: módulos do mesmo painel que leem e gravam as planilhas do almoxarifado e da brigada, com mapa clicável dos hidrantes.
+- **Organização dos prontuários** (Python): 759 documentos copiados para a pasta certa de cada funcionário, cruzando com a listagem oficial.
+- **Painel de treinamentos NR** (Python, pandas e openpyxl): dashboard em Excel com o que está vencido ou perto de vencer.
+
+Mais projetos e números em **[arthurtureck.dev.br](https://arthurtureck.dev.br)**.
 
 ## Ferramentas
 
